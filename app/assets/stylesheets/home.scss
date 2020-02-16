@@ -1,0 +1,88 @@
+body {
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+.welcome {
+  height: 700px;
+  width: 100vw;
+  font-family: 'Quicksand', sans-serif;
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0), #212121 95%), image-url("mario.jpg") center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__box {
+    padding-top: 40px;
+  }
+  &__my-name {
+    font-family: 'Quicksand', san-serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: #eceff1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__text {
+    font-family: 'Quicksand', san-serif;
+    color: #eceff1;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.character {
+  // height: 30vh;
+  width: 100vw;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  color: #eceff1;
+  &__coffee-is {
+    text-align: center;
+  }
+  &__philosophy {
+    font-family: 'Quicksand', san-serif;
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+  &__coffee-icon {
+    height: 90px;
+    width: 90px;
+    margin-bottom: 40px;
+  }
+  &__head {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  &__description {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+.works {
+  width: 100%;
+  background-color: #212121;
+  text-align: center;
+  color: #eceff1;
+  padding-top: 100px;
+  &__title {
+    font-family: 'Quicksand', san-serif;
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+  &__thought {
+    font-size: 20px;
+  }
+  &__box {
+    display: flex;
+  }
+  &__pill-economy {
+    
+  }
+}
+
+footer {
+  height:20vh;
+  width: 100vw;
+  background-color: #212121;
+}
