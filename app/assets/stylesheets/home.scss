@@ -40,6 +40,7 @@ a {
   display: flex;
   justify-content: center;
   color: #eceff1;
+  padding: 100px 0;
   &__coffee-is {
     text-align: center;
   }
@@ -69,18 +70,31 @@ a {
   text-align: center;
   background-color: #212121;
   color: #eceff1;
+  padding: 100px 0;
   &__title {
     font-family: 'Quicksand', san-serif;
     font-size: 35px;
     margin-bottom: 40px;
   }
   &__info {
-
+    display: flex;
   }
   &__my-image {
-    background-image: image-url("me2.png");
-    width: 400px;
-    height: 400px;
+    background-image: image-url("me.png");
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    width: 380px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 80px;
+  }
+  &__text {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 80px;
+    padding-top: 10px;
+    line-height: 30px;
   }
 }
 
@@ -142,10 +156,17 @@ a {
     overflow: hidden;
   }
   &__work_img:hover {
-    transform: scale(1.1);
     transition-duration: 0.3s;
     opacity: 0.6;
   }
+}
+
+.comming-soon {
+  background-color: gray;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer {
@@ -175,6 +196,9 @@ a {
   }
   &__sns-list {
     margin-left: 30px;
+    &--image {
+      margin-left: 15px;
+    }
   }
   &__note-icon {
     width: 55px;
