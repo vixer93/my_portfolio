@@ -17,20 +17,62 @@
     </p>
   </div>
 </section>
-<!-- <section class="plofile">
-  <h1 class="plofile__">Profile</h1>
-</section> -->
+<section class="profile">
+  <h1 class="profile__title">Profile</h1>
+  <div class="profile__info">
+    <div class="profile__my-image"></div>
+  </div>
+</section>
 <section class="works">
   <h1 class="works__title">Works</h1>
   <p class="works__thought">
     良いサービスとはどのようにして生まれてきたのか。<br>
     これに関して考えてみました。<br>
-    考えた末に以下３つの観点から生まれるのではないかと考え、作品作成を行いました。</p>
+    考えた末に以下３つの観点から生まれるのではないかと考え、作品を作成しました。</p>
   <div class="works__box">
-    <div class="works__pull-economy"></div>
-    <div class="works__hobby"></div>
-    <div class="works__efficiency"></div>
+    <div class="works__pull-economy">
+      <h2 class="works__subtitle">経済から予測</h2>
+      <%= image_tag 'economy.png', class: 'works__icon' %>
+      <p class="works__description">
+        政治や技術など様々な要因で、経済状況は目まぐるしく変化していきます。最近話題になったキーワードとしては、税率アップ、働き方改革、SDGsなどでしょうか。この変化を予測し、そこから生まれるニーズに合わせたサービスを提供する。これが良いサービスが生まれる一つの条件なのではないでしょうか。
+      </p>
+      <a href="#">
+        <h3 class="works__work-name">Ether</h3>
+        <%= image_tag 'ether.png', class: 'works__work_img' %>
+      </a>
+    </div>
+    <div class="works__hobby">
+      <h2 class="works__subtitle">趣味をより楽しく</h2>
+      <%= image_tag 'camera.png', class: 'works__icon' %>
+      <p class="works__description">
+        より多くの時間を趣味に費やすことができ、もっと楽しめたら幸せですよね。
+        最近では、スポーツ観戦が好きな人はスマートフォンでいつでも観戦可能ですし、筋トレが趣味の人は日々の成果をグラフ化してくれるようになり、モチベーションを保ちやすくなりました。趣味をもっと楽しくするサービスも良いサービスと言えると思います。
+      </p>
+      <a href="#">
+        <h3 class="works__work-name">TONE×UP×DATE</h3>
+        <%= image_tag 'tone_up_date.png', class: 'works__work_img' %>
+      </a>
+    </div>
+    <div class="works__efficiency">
+      <h2 class="works__subtitle">効率化</h2>
+      <%= image_tag 'efficiency.png', class: 'works__icon' %>
+      <p class="works__description">
+        多くのサービスがこの効率化に当たるかと思います。単純作業の自動化、AIによる自動管理などの技術により、人々の自由な時間が増えてきています。その自由な時間を使って、さらに多くの仕事を行ったり、趣味に費やしたり、スキルアップに使ったり。技術の力で人々の自由が増えるなんて素晴らしいですね。
+      </p>
+    </div>
   </div>
 </section>
-<footer>
+<footer class="footer">
+  <div class="footer__box">
+    <ul class="footer__page-link">
+      <li><a href="#">Philosophy</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Works</a></li>
+    </ul>
+    <ul class="footer__sns-link">
+      <li class="footer__sns-list"><a href="https://github.com/vixer93"><%= icon 'fab', 'github-square' %></a></li>
+      <li class="footer__sns-list"><a href="https://twitter.com/tn_outputsuruzo"><%= icon 'fab', 'twitter-square' %></a></li>
+      <li class="footer__sns-list"><a href="https://note.com/vixer93"><%= image_tag 'note.png', class: 'footer__note-icon' %></a></li>
+    </ul>
+  </div>
 </footer>

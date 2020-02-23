@@ -1,6 +1,12 @@
 body {
   font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
 }
+
+a {
+  text-decoration: none;
+  color: #eceff1;
+}
+
 .welcome {
   height: 700px;
   width: 100vw;
@@ -29,7 +35,6 @@ body {
   }
 }
 .character {
-  // height: 30vh;
   width: 100vw;
   background-color: #212121;
   display: flex;
@@ -59,12 +64,32 @@ body {
   }
 }
 
+.profile {
+  width: 100%;
+  text-align: center;
+  background-color: #212121;
+  color: #eceff1;
+  &__title {
+    font-family: 'Quicksand', san-serif;
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+  &__info {
+
+  }
+  &__my-image {
+    background-image: image-url("me2.png");
+    width: 400px;
+    height: 400px;
+  }
+}
+
 .works {
   width: 100%;
   background-color: #212121;
   text-align: center;
   color: #eceff1;
-  padding-top: 100px;
+  padding: 100px 0;
   &__title {
     font-family: 'Quicksand', san-serif;
     font-size: 35px;
@@ -72,17 +97,87 @@ body {
   }
   &__thought {
     font-size: 20px;
+    margin-bottom: 100px;
+    line-height: 30px;
   }
   &__box {
     display: flex;
   }
-  &__pill-economy {
-    
+  &__pull-economy {
+    width: 33%;
+    text-align: center;
+  }
+  &__hobby {
+    width: 33%;
+    text-align: center;
+  }
+  &__efficiency {
+    width: 33%;
+    text-align: center;
+  }
+  &__subtitle {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  &__icon {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 40px;
+  }
+  &__description {
+    padding: 0 80px;
+    height: 250px;
+    text-align: left;
+    line-height: 25px;
+  }
+  &__work-name {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px auto 10px auto;
+  }
+  &__work_img {
+    height: 180px;
+    width: 300px;
+    background-size: contain;
+    overflow: hidden;
+  }
+  &__work_img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    opacity: 0.6;
   }
 }
 
-footer {
-  height:20vh;
-  width: 100vw;
-  background-color: #212121;
+.footer {
+  height:300px;
+  width: 100%;
+  background-color: black;
+  color: #eceff1;
+  &__box {
+    width: 50%;
+    margin: 0 auto;
+  }
+  &__page-link {
+    padding-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-bottom: 80px;
+  }
+  &__sns-link {
+    color: #eceff1;
+    list-style: none;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  &__sns-list {
+    margin-left: 30px;
+  }
+  &__note-icon {
+    width: 55px;
+    height: 55px;
+  }
 }
