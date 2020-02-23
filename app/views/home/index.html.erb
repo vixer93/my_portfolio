@@ -4,7 +4,7 @@
     <p class="welcome__text">wanna be like that</p>
   </div>
 </section>
-<section class="character">
+<section class="character" id="character">
   <div class="character__coffee-is">
     <h1 class="character__philosophy">Philosophy</h1>
     <h1 class="character__head">コーヒーのような存在になりたい</h1>
@@ -17,13 +17,21 @@
     </p>
   </div>
 </section>
-<section class="profile">
+<section class="profile" id="profile">
   <h1 class="profile__title">Profile</h1>
   <div class="profile__info">
     <div class="profile__my-image"></div>
+    <p class="profile__text">
+      はじめまして。薄田晋と申します。平成5年生まれ26歳、社会人4年目です。<br>
+      青山学院大学理工学部卒業後、自動車メーター、HUDのメーカーでシステムエンジニアとして技術開発を３年間行ってきました。<br>
+      主にグラフィックス制御技術エリアを担当しており、仕様設計、回路設計、モデリング、技術営業を行っていました。<br>
+      特に状態遷移設計を得意としております。<br>
+      その後、オフィス家具メーカーへ転職し、半年間営業としてお客様への価値提供を行ってきました。<br>
+      ユーザー視点でより良いサービスを創造していきたいと考え、エンジニアリングを再び猛勉強しています！
+    </p>
   </div>
 </section>
-<section class="works">
+<section class="works" id="works">
   <h1 class="works__title">Works</h1>
   <p class="works__thought">
     良いサービスとはどのようにして生まれてきたのか。<br>
@@ -59,20 +67,26 @@
       <p class="works__description">
         多くのサービスがこの効率化に当たるかと思います。単純作業の自動化、AIによる自動管理などの技術により、人々の自由な時間が増えてきています。その自由な時間を使って、さらに多くの仕事を行ったり、趣味に費やしたり、スキルアップに使ったり。技術の力で人々の自由が増えるなんて素晴らしいですね。
       </p>
+      <a href="#">
+        <h3 class="works__work-name">----</h3>
+        <div class="works__work_img comming-soon">
+          <h2>Comming Soon ...</h2>
+        </div>
+      </a>
     </div>
   </div>
 </section>
 <footer class="footer">
   <div class="footer__box">
     <ul class="footer__page-link">
-      <li><a href="#">Philosophy</a></li>
-      <li><a href="#">Profile</a></li>
-      <li><a href="#">Works</a></li>
+      <li><a href="#character">Philosophy</a></li>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#works">Works</a></li>
     </ul>
     <ul class="footer__sns-link">
       <li class="footer__sns-list"><a href="https://github.com/vixer93"><%= icon 'fab', 'github-square' %></a></li>
       <li class="footer__sns-list"><a href="https://twitter.com/tn_outputsuruzo"><%= icon 'fab', 'twitter-square' %></a></li>
-      <li class="footer__sns-list"><a href="https://note.com/vixer93"><%= image_tag 'note.png', class: 'footer__note-icon' %></a></li>
+      <li class="footer__sns-list footer__sns-list--image"><a href="https://note.com/vixer93"><%= image_tag 'note.png', class: 'footer__note-icon' %></a></li>
     </ul>
   </div>
 </footer>
