@@ -313,3 +313,33 @@ a {
     text-align: center;
   }
 }
+.works-footer {
+  height:100px;
+  width: 100%;
+  background-color: black;
+  color: #eceff1;
+  padding-top: 60px;
+  &__box {
+    width: 50%;
+    margin: 0 auto;
+  }
+  &__sns-link {
+    color: #eceff1;
+    list-style: none;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__sns-list {
+    margin-left: 30px;
+    &--image {
+      margin-left: 15px;
+      margin-top: 10px;
+    }
+  }
+  &__note-icon {
+    width: 55px;
+    height: 55px;
+  }
+}
