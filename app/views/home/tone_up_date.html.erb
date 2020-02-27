@@ -1,0 +1,47 @@
+<section class="tone-up-date">
+  <h1 class="tone-up-date__category">Works</h1>
+  <h2 class="tone-up-date__title">TONE×UP×DATE</h2>
+  <p class="tone-up-date__link"><a href="https://closet-digit-app.herokuapp.com/">サイトへ</a></p>
+  <%= image_tag 'tone_up_date.png', class: 'tone-up-date__image' %>
+  <h2 class="tone-up-date__tech">HTML / CSS / React / Ruby / Ruby on Rails </h2>
+  <div class="tone-up-date__whatis">
+    <div class="tone-up-date__item">
+      <h3 class="tone-up-date__item--title">概要</h3>
+      <p class="tone-up-date__item--description">
+        自分の持っている服を管理してくれるアプリケーションです。<br>
+        投稿した服の画像から色を解析し、どのような服に合うのかを提案してくれます。<br>
+      </p>
+    </div>
+    <div class="tone-up-date__item">
+      <h3 class="tone-up-date__item--title">なぜ作ったか</h3>
+      <p class="tone-up-date__item--description">
+        自分の持っている服が多くなりすぎて、クローゼット内を目視で管理するのは無理だと思ったため作成しました。<br>
+        また、感性だけでなく論理的に服の提案をしてくれるとユーザーの幅が広がると思い、おすすめ機能を考えました。<br>
+      </p>
+    </div>
+    <div class="tone-up-date__item">
+      <h3 class="tone-up-date__item--title">こだわり</h3>
+      <p class="tone-up-date__item--description">
+        GoogleCloudVisionAPIを用いた画像認識機能を実装し、画像から服の種類、色のRGB各1バイトの情報を取得しています。<br>
+        この色情報を色相、彩度、明度という色の三属性に変換するロジックを組み、どのような服の色なのかを認識しています。
+        この情報を元に、主観ではありますがどのような服と合うのかを提案する機能を実装しています。
+      </p>
+    </div>
+    <div class="tone-up-date__item">
+      <h3 class="tone-up-date__item--title">今後行うこと</h3>
+      <p class="tone-up-date__item--description">
+        ・テストスペックの実装<br>
+        ・色相を用いてより明確な服提案機能を実装する<br>
+      </p>
+    </div>
+    <div class="tone-up-date__item">
+      <h3 class="tone-up-date__item--title">課題</h3>
+      <p class="tone-up-date__item--description">
+        投稿するために要する時間が長いことが改善するべき課題としてあげられます。<br>
+        投稿画像をAWSのS3へ保存していることや、GoogleCloudVisionAPIを使用していることから、通信を多用しており、投稿完了までに要する時間が長くなっている。<br>
+        また、GoogleCloudVisionAPIがS3の画像を読み込むことができないエラーが発生しており、現時点の対応策として、一度保存した画像をローカルにダウンロードしてAPIに読み込ませるという流れで実装している。<br>
+        これによりさらに通信速度が遅くなっている。
+      </p>
+    </div>
+  </div>
+</section>
