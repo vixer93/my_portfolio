@@ -1,5 +1,6 @@
 body {
   font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+  background-color: #212121;
 }
 
 a {
@@ -203,5 +204,112 @@ a {
   &__note-icon {
     width: 55px;
     height: 55px;
+  }
+}
+.tone-up-date {
+  width: 100%;
+  background-color: #212121;
+  text-align: center;
+  color: #eceff1;
+  padding: 100px 0;
+  &__category {
+    font-family: 'Quicksand', san-serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px #eceff1 solid;
+    width: max-content;
+    margin: 0 auto 40px auto;
+    padding-bottom: 9px;
+  }
+  &__title {
+    font-family: 'Quicksand', san-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  &__link {
+    margin-bottom: 20px;
+  }
+  &__image {
+    height: 594px;
+    width: 1000px;
+    margin-bottom: 20px;
+  }
+  &__tech {
+    font-family: 'Quicksand', san-serif;
+    margin-bottom: 80px;
+    font-size: 25px;
+  }
+  &__whatis {
+    width: 50%;
+    margin: 0 auto;
+  }
+  &__item {
+    width: 100%;
+    margin-bottom: 100px;
+    &--title {
+      font-size: 25px;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+    &--description {
+      font-size: 20px;
+      line-height: 30px;
+      text-align: left;
+    }
+  }
+}
+.ether {
+  width: 100%;
+  background-color: #212121;
+  text-align: center;
+  color: #eceff1;
+  padding: 100px 0;
+  &__category {
+    font-family: 'Quicksand', san-serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px #eceff1 solid;
+    width: max-content;
+    margin: 0 auto 40px auto;
+    padding-bottom: 9px;
+  }
+  &__title {
+    font-family: 'Quicksand', san-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  &__link {
+    margin-bottom: 20px;
+  }
+  &__image {
+    height: 594px;
+    width: 1000px;
+    margin-bottom: 20px;
+  }
+  &__tech {
+    font-family: 'Quicksand', san-serif;
+    margin-bottom: 80px;
+    font-size: 25px;
+  }
+  &__whatis {
+    width: 50%;
+    margin: 0 auto;
+  }
+  &__item {
+    width: 100%;
+    margin-bottom: 100px;
+    &--title {
+      font-size: 25px;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+    &--description {
+      font-size: 20px;
+      line-height: 30px;
+      text-align: left;
+    }
+  }
+  &__presen {
+    text-align: center;
   }
 }

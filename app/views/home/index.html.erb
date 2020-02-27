@@ -44,10 +44,10 @@
       <p class="works__description">
         政治や技術など様々な要因で、経済状況は目まぐるしく変化していきます。最近話題になったキーワードとしては、税率アップ、働き方改革、SDGsなどでしょうか。この変化を予測し、そこから生まれるニーズに合わせたサービスを提供する。これが良いサービスが生まれる一つの条件なのではないでしょうか。
       </p>
-      <a href="#">
+      <%= link_to work_ether_path do %>
         <h3 class="works__work-name">Ether</h3>
         <%= image_tag 'ether.png', class: 'works__work_img' %>
-      </a>
+      <% end %>
     </div>
     <div class="works__hobby">
       <h2 class="works__subtitle">趣味をより楽しく</h2>
@@ -56,10 +56,10 @@
         より多くの時間を趣味に費やすことができ、もっと楽しめたら幸せですよね。
         最近では、スポーツ観戦が好きな人はスマートフォンでいつでも観戦可能ですし、筋トレが趣味の人は日々の成果をグラフ化してくれるようになり、モチベーションを保ちやすくなりました。趣味をもっと楽しくするサービスも良いサービスと言えると思います。
       </p>
-      <a href="#">
+      <%= link_to work_tone_up_date_path do %>
         <h3 class="works__work-name">TONE×UP×DATE</h3>
         <%= image_tag 'tone_up_date.png', class: 'works__work_img' %>
-      </a>
+      <% end %>
     </div>
     <div class="works__efficiency">
       <h2 class="works__subtitle">効率化</h2>
@@ -67,12 +67,12 @@
       <p class="works__description">
         多くのサービスがこの効率化に当たるかと思います。単純作業の自動化、AIによる自動管理などの技術により、人々の自由な時間が増えてきています。その自由な時間を使って、さらに多くの仕事を行ったり、趣味に費やしたり、スキルアップに使ったり。技術の力で人々の自由が増えるなんて素晴らしいですね。
       </p>
-      <a href="#">
+      <%= link_to '#' do %>
         <h3 class="works__work-name">----</h3>
         <div class="works__work_img comming-soon">
           <h2>Comming Soon ...</h2>
         </div>
-      </a>
+      <% end %>
     </div>
   </div>
 </section>
