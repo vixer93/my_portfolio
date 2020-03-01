@@ -12,8 +12,8 @@ a {
   height: 700px;
   width: 100vw;
   font-family: 'Quicksand', sans-serif;
-  background: -webkit-linear-gradient(top, rgba(0,0,0,0), #212121 95%), image-url("mario.jpg") center center / cover no-repeat;
   display: flex;
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0), #212121 95%), image-url("mario.jpg") center center / cover no-repeat;
   align-items: center;
   justify-content: center;
   &__box {
