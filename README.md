@@ -1,24 +1,22 @@
-# README
+# アプリケーション概要
+自身のポートフォリオサイトです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+AWS EC2にデプロイを行なっています。
 
-Things you may want to cover:
+独自のドメインをRoute53で取得し、SSL化しています。
 
-* Ruby version
+# 使用技術
+## ◼︎言語
+### バックエンド
+Ruby 2.5.1
+## ◼︎フレームワーク
+Ruby on Rails 5.0.7.2
+## ◼︎データベース
+### 開発環境
+MySQL 5.6.46
+## ◼︎インフラ
+AWS EC2
+## ◼︎デプロイ
+Capistranoによる自動デプロイ
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
