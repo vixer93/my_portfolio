@@ -149,6 +149,12 @@ a {
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
     margin: 20px auto 10px auto;
+    &--comming-soon {
+      font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+      font-size: 20px;
+      font-weight: lighter;
+      margin: 20px auto 10px auto;
+    }
   }
   &__work_img {
     height: 180px;
@@ -159,6 +165,11 @@ a {
   &__work_img:hover {
     transition-duration: 0.3s;
     opacity: 0.6;
+  }
+  &__work-skill {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 5px auto 10px auto;
   }
   &__pick-up {
     font-size: 25px;
