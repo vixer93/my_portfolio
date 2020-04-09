@@ -38,16 +38,16 @@
     これに関して考えてみました。<br>
     考えた末に以下３つの観点から生まれるのではないかと考え、作品を作成しました。</p>
   <div class="works__box">
-    <div class="works__pull-economy">
-      <h2 class="works__subtitle">経済から予測</h2>
-      <%= image_tag 'economy.png', class: 'works__icon' %>
+    <div class="works__efficiency">
+      <h2 class="works__subtitle">効率化</h2>
+      <%= image_tag 'efficiency.png', class: 'works__icon' %>
       <p class="works__description">
-        政治や技術など様々な要因で、経済状況は目まぐるしく変化していきます。最近話題になったキーワードとしては、税率アップ、働き方改革、SDGsなどでしょうか。この変化を予測し、そこから生まれるニーズに合わせたサービスを提供する。これが良いサービスが生まれる一つの条件なのではないでしょうか。
+        多くのサービスがこの効率化に当たるかと思います。単純作業の自動化、AIによる自動管理、情報集約による検索時間短縮などの技術により、人々の自由な時間が増えてきています。その自由な時間を使って、さらに多くの仕事を行ったり、趣味に費やしたり、スキルアップに使ったり。技術の力で人々の自由が増えるなんて素晴らしいですね。
       </p>
-      <%= link_to work_ether_path do %>
-        <h3 class="works__work-name">Ether</h3>
-        <%= image_tag 'ether.png', class: 'works__work_img' %>
-        <h3 class="works__work-skill">Vue.js × Rails</h3>
+      <%= link_to work_tetra_path do %>
+        <h3 class="works__work-name--comming-soon">tetra(開発途中)</h3>
+        <%= image_tag 'tetra.png', class: 'works__work_img' %>
+        <h3 class="works__work-skill">AWS × Docker × Nuxt.js × Rails</h3>
       <% end %>
     </div>
     <div class="works__hobby">
@@ -61,24 +61,22 @@
         <h3 class="works__work-name">TONE×UP×DATE</h3>
         <%= image_tag 'tone_up_date.png', class: 'works__work_img' %>
         <h3 class="works__work-skill">React × Rails</h3>
-        <div class="works__pick-up">
+        <!-- <div class="works__pick-up">
           <%= icon 'far', 'lightbulb', class: "works__pick-up--icon" %>
           Pick up!
-        </div>
+        </div> -->
       <% end %>
     </div>
-    <div class="works__efficiency">
-      <h2 class="works__subtitle">効率化</h2>
-      <%= image_tag 'efficiency.png', class: 'works__icon' %>
+    <div class="works__pull-economy">
+      <h2 class="works__subtitle">経済から予測</h2>
+      <%= image_tag 'economy.png', class: 'works__icon' %>
       <p class="works__description">
-        多くのサービスがこの効率化に当たるかと思います。単純作業の自動化、AIによる自動管理などの技術により、人々の自由な時間が増えてきています。その自由な時間を使って、さらに多くの仕事を行ったり、趣味に費やしたり、スキルアップに使ったり。技術の力で人々の自由が増えるなんて素晴らしいですね。
+        政治や技術など様々な要因で、経済状況は目まぐるしく変化していきます。最近話題になったキーワードとしては、税率アップ、働き方改革、SDGsなどでしょうか。この変化を予測し、そこから生まれるニーズに合わせたサービスを提供する。これが良いサービスが生まれる一つの条件なのではないでしょうか。
       </p>
-      <%= link_to '#' do %>
-        <h3 class="works__work-name--comming-soon">メンズコスメレビューサイト(作成中)</h3>
-        <div class="works__work_img comming-soon">
-          <h2>Comming Soon ...</h2>
-        </div>
-        <h3 class="works__work-skill">Nuxt.js × Rails</h3>
+      <%= link_to work_ether_path do %>
+        <h3 class="works__work-name">Ether</h3>
+        <%= image_tag 'ether.png', class: 'works__work_img' %>
+        <h3 class="works__work-skill">Vue.js × Rails</h3>
       <% end %>
     </div>
   </div>

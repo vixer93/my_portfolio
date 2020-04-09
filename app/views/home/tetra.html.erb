@@ -1,0 +1,57 @@
+<section class="tetra">
+  <h1 class="tetra__category">Works</h1>
+  <h2 class="tetra__title">tetra</h2>
+  <p class="tetra__link"><a href="https://reviews.tetra-sankaku.com/">サイトへ</a></p>
+  <p class="tetra__link"><a href="https://github.com/vixer93/mens_cosme_web">Githubへ(Nuxtプロジェクト)</a></p>
+  <p class="tetra__link"><a href="https://github.com/vixer93/mens_cosme_api">Githubへ(RoRプロジェクト)</a></p>
+  <%= image_tag 'tetra.png', class: 'tetra__image' %>
+  <h2 class="tetra__tech">
+    <p class="tetra__tech-upper">HTML / CSS / Nuxt.js / Ruby / Ruby on Rails / AWS / Docker</p>
+    <p>AWS: VPC / EC2 / S3 / RDS(MySQL) / Route 53 / ACM / ELB</p>
+  </h2>
+  <div class="tetra__whatis">
+    <div class="tetra__item">
+      <h3 class="tetra__item--title">概要</h3>
+      <p class="tetra__item--description">
+        メンズコスメレビューサイトです。<br>
+        一般的なレビューサイトではありますが、意外とメンズコスメのレビューサイトは存在していません。<br>
+      </p>
+    </div>
+    <div class="tetra__item">
+      <h3 class="tetra__item--title">なぜ作ったか</h3>
+      <p class="tetra__item--description">
+        最近では男性も美容に対する意識が高まり、リップクリーム、香水、化粧水などは一般的に使われています。<br>
+        どのリップクリームがいいかな？といった思いでググったことはありませんか？<br>
+        しかし、出てくるのは素性のわからない人のブログに書いてある"~9選"のような記事です。<br>
+        もっと多く人の意見を集約し、発信できたら、信頼性のある情報に素早くたどり着くことができ、便利だと考え作成しました。<br>
+        YouTubeやTikTokのような媒体を使用したアイドル活動も増えてきたため、今後そのような方からも需要のあるサイトだと考えていますす。
+      </p>
+    </div>
+    <div class="tetra__item">
+      <h3 class="tetra__item--title">こだわり</h3>
+      <p class="tetra__item--description">
+        Nuxt.js,Docker,AWSといったモダンな技術を使用した点です。<br>
+        多くの新規要素を取り入れることとなり大変ではありましたが、必要なことを洗い出し、組み立て、問題を細かくしていくことで実装することができました。<br>
+        アプリケーションはこれからも改善を進めていきます。
+      </p>
+    </div>
+    <div class="tetra__item">
+      <h3 class="tetra__item--title">今後行うこと</h3>
+      <p class="tetra__item--description">
+        ・基本機能実装<br>
+        ・レビューの信頼性向上施策<br>
+        ・SPAからSSRへ移行<br>
+      </p>
+    </div>
+  </div>
+    <p class="tetra__link"><a href="https://reviews.tetra-sankaku.com/">サイトへ</a></p>
+    <p class="tetra__link"><a href="https://github.com/vixer93/mens_cosme_web">Githubへ(Nuxtプロジェクト)</a></p>
+    <p class="tetra__link"><a href="https://github.com/vixer93/mens_cosme_api">Githubへ(RoRプロジェクト)</a></p>
+  <div class="works-footer__box">
+    <ul class="works-footer__sns-link">
+      <li class="works-footer__sns-list"><a href="https://github.com/vixer93"><%= icon 'fab', 'github-square' %></a></li>
+      <li class="works-footer__sns-list"><a href="https://twitter.com/tn_outputsuruzo"><%= icon 'fab', 'twitter-square' %></a></li>
+      <li class="works-footer__sns-list works-footer__sns-list--image"><a href="https://note.com/vixer93"><%= image_tag 'note.png', class: 'works-footer__note-icon' %></a></li>
+    </ul>
+  </div>
+</section>
